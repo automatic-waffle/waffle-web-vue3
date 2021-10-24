@@ -1,0 +1,23 @@
+{
+  "name": "waffle-web-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "update-types": "npx openapi-typescript https://tgkpplwyiqynshkfmcet.supabase.co/rest/v1/?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyNDI3NzY4MSwiZXhwIjoxOTM5ODUzNjgxfQ.m-RrLzFfBxDagttHNoPPbSmSzbUb-ugpEdZnxal-mi4 --output src/supabase.ts"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.15.8",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "naive-ui": "^2.19.11",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.4"
+  }
+}
